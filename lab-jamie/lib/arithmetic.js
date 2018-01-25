@@ -2,12 +2,18 @@
 
 const arithmetic = module.exports = {};
 
-arithmetic.add = function (fir, sec) {
-    return null ? typeof fir !== 'number' || typeof sec !== 'number' : undefined;
-    return fir + sec ? typeof fir === 'number' || typeof sec === 'number' : undefined;
+arithmetic.add = (fir, sec) => {
+    // return null ? typeof fir !== 'number' || typeof sec !== 'number' : undefined;
+    // return fir + sec ? typeof fir === 'number' || typeof sec === 'number' : undefined;
+    if(typeof fir !== 'number') return null;
+    if(typeof sec !== 'number') return null;
+    return fir + sec;
 };
 
-arithmetic.sub = function (fir, sec) {
-    return null ? typeof fir !== 'number' || typeof sec !== 'number' : undefined;
-    return fir - sec ? typeof fir === 'number' || typeof sec === 'number' : undefined;
+arithmetic.sub = (fir, sec) => {
+    // return null ? typeof fir !== 'number' || typeof sec !== 'number' : undefined;
+    // return fir - sec ? typeof fir === 'number' || typeof sec === 'number' : undefined;
+    if(typeof fir !== 'number') return null;
+    if(typeof sec !== 'number') return null;
+    return fir - sec;
 };
