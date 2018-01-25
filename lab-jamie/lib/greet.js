@@ -1,6 +1,6 @@
 'use strict';
 
-const greet = module.exports {} 
+const greet = module.exports = {}; 
 
 greet.hello = (str) => {
     // return null ? typeof str !== 'str' : undefined;
