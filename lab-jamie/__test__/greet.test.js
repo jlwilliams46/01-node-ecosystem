@@ -5,7 +5,7 @@ require('jest');
 
 describe('Incorrect Input', () => {
     it('should return null if input was not a string', () => {
-        expect(greet(3.14159265359).toBeNull());
+        expect(greet.hello(3.14159265359).toBeNull());
     })
 });
 
