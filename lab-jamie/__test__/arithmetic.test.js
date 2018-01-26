@@ -1,6 +1,7 @@
 'use strict';
 
 const arithmetic = require('../lib/arithmetic.js');
+require('jest');
 
 describe('Incorrect Input', () => {
     it('should return null if either input is not a number', () => {
