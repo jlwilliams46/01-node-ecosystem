@@ -19,4 +19,4 @@
 
 ## Getting Started
     * Clone Repository.
-    * Enter npm i` in the terminal to install the necessary node modules and dependencies.
+    * Enter `npm i` in the terminal to install the necessary node modules and dependencies.
