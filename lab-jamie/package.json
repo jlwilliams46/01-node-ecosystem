@@ -18,5 +18,7 @@
   "homepage": "https://github.com/jlwilliams46/01-node-ecosystem#readme",
   "devDependencies": {
     "jest": "^22.1.4"
+  },  "scripts": {
+    "test": "jest --verbose"
   }
 }
