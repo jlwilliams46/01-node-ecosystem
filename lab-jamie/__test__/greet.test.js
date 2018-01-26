@@ -11,6 +11,6 @@ describe('Incorrect Input', () => {
 
 describe('Correct Output', () => {
     it('should take a string and concatenate it to the "hello"', () => {
-        expect(greet.hello('awesomeness')).toEqual('hello awesomeness');
+        expect(greet.hello('world')).toEqual('hello world');
     })
 });
